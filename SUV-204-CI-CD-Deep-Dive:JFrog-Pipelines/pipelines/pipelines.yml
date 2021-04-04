@@ -121,7 +121,7 @@ pipelines:
         type: Bash
         configuration:
           environmentVariables:
-            dockerImageName: hts2.jfrog.io/docker-staging-local/app # PREREQ(REHYDRATION):  Change the server name to your environment's
+            dockerImageName: hts2-docker-staging-local.jfrog.io/docker-staging-local/app # PREREQ(REHYDRATION):  Change the server name to your environment's
             dockerImageTag: ${run_number}
           inputResources:
             - name: be_gitRepo
